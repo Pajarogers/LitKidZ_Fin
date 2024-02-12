@@ -1,0 +1,194 @@
+/* menu bar placement on the page */
+.menu-bar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+/* logo text color and font size */
+.logo {
+  color: chartreuse;
+  font-size: 40px;
+}
+
+/* logo text color */
+.logo span {
+  color: coral;
+}
+
+/* menu list style and display type */
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+/* spacing for in between menu list */
+.menu-bar ul li {
+  padding: 10px 30px;
+}
+
+/* color and font size for menu list */
+.menu-bar ul a {
+  color: rgb(194, 69, 10);
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+/* hover color for menu list */
+.menu-bar ul a:hover {
+  color: rgb(48, 109, 101);
+}
+
+.form-bn a:hover {
+  color: #ed1a92;
+}
+
+/* generic setting */
+* {
+  padding: 0;
+  margin: 2px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+/* container setting for video on home page */
+.container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* setting for video */
+.background-clip,
+.video-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+/* setting for video */
+@media (min-aspect-ratio: 16/9) {
+  .background-clip,
+  .video-bg {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+/* setting for video */
+@media (max-aspect-ratio: 16/9) {
+  .background-clip,
+  .video-bg {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+/* setting for video */
+.me-container {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 10%;
+  margin-top: 2.5vw;
+}
+
+/* setting for drop-down list */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.vido-bn-1 {
+  background-color: rgba(0, 0, 0, 0.0);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-size: 42px;
+  border: none;
+  margin-left: 5vw;
+  position: relative;
+  display: inline-block;
+  margin-top: 410px;
+}
+
+/* setting for drop-down list */
+.dropdown {
+  margin-left: 680px;
+  position: relative;
+  display: inline-block;
+  margin-top: -300px;
+}
+
+/* setting for drop-down list */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ed1a92;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* setting for drop-down list */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* setting for drop-down list */
+.dropdown-content {
+  background-color: #5672ef;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #8e3e83;
+}
+
+/* Footer style, margin, text color, padding, background color */
+footer {
+  text-align: center;
+  margin-top: 220px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  background-color: rgb(3, 1, 0);
+}
+
+/* setting for the container for the game page */
+.frame {
+  width: 250px;
+  height: 200px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+/* image size for the container game page 10-12 and 7-9 */
+.image-size {
+  object-fit: fill;
+  width: 250px;
+  height: 250px;
+}

@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(images/teacher.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 8vh;
+}
+
+.menu-bar {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+/* logo text color and font size */
+.logo {
+  color: chartreuse;
+  font-size: 3vw;
+}
+
+/* logo text color */
+.logo span {
+  color: coral;
+}
+
+/* menu list style and display type */
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* spacing for in between menu list */
+.menu-bar ul li {
+  padding: 1vh 2vw;
+}
+
+/* color and font size for menu list */
+.menu-bar ul a {
+  color: rgb(194, 69, 10);
+  text-decoration: none;
+  font-size: 1.5vw;
+  transition: all 0.3s;
+}
+
+/* hover color for menu list */
+.menu-bar ul a:hover {
+  color: rgb(48, 109, 101);
+}
+
+.form-bn a:hover {
+  color: #ed1a92;
+}
+
+/* generic setting */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.intro {
+  font-family: Arial, sans-serif;
+  font-size: 2.8vw;
+  margin-left: 5%;
+  margin-top: 2.5vh;
+}
+
+video {
+  display: block;
+  margin-left: 5%;
+  margin-top: 2.5vh;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Button and Image adjustments */
+.dropbtn,
+.vido-bn-1,
+.button_size img,
+.button,
+.nex {
+  width: 8vw;
+  height: 8vw;
+  font-size: 1.2vw;
+  padding: 1vh 2vw;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+.image-size {
+  object-fit: cover;
+  width: 100%;
+  height: 8vw;
+}
+
+.button_size img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.button {
+  width: 3vw;
+  height: 3vw;
+}
+
+.nex {
+  font-size: 1.4vw;
+}
